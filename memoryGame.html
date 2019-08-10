@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="memoryGame.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="jumboContainer">
+        <div class="jumbotron">
+            <h1>Memory Game</h1>
+            <div class="container">
+                <button class="btn btn-light mr-1" id="imgBtn">Disney - Image</button>
+                <button class="btn btn-light mr-1" id="imgBtn">Marvel - Image</button>
+                <button class="btn btn-light ml-5" id="res">Reset</button></div>
+        </div>
+    </div>
+    <div id="match">
+        <h1 class="MatchOrNot">..לחץ על הקוביות בכדי להתחיל לשחק</h1>
+    </div>
+    <div class="container game pt-5">
+        <div class="row pb-1">
+            <div class="square col mr-1" id="0"></div>
+            <div class="square col mr-1" id="1"></div>
+            <div class="square col mr-1" id="2"></div>
+            <div class="mobileBreak"></div>
+            <div class="square col mr-1" id="3"></div>
+            <div class="square col mr-1" id="4"></div>
+            <div class="square col " id="5"></div>
+        </div>
+        <div class="row pb-1">
+            <div class="square col mr-1" id="6"></div>
+            <div class="square col mr-1" id="7"></div>
+            <div class="square col mr-sm-1" id="8"></div>
+            <div class="mobileBreak"></div>
+            <div class="square col mr-1" id="9"></div>
+            <div class="square col mr-1" id="10"></div>
+            <div class="square col " id="11"></div>
+        </div>
+    </div>
+    <script src="memoryGame.js"></script>
+</body>
+
+</html>

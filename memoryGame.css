@@ -1,0 +1,84 @@
+body {
+    /* background: url(https://images.unsplash.com/photo-1544411047-c491e34a24e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80); */
+    background: url(https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1514&q=80);
+    background-size: cover;
+}
+
+.mobileBreak {
+    width: 0px;
+}
+
+@media (max-width: 414px) {
+    .mobileBreak {
+        width: 100%;
+    }
+}
+
+body {
+    text-align: center;
+}
+
+#match {
+    float: center;
+}
+
+.MatchOrNot {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.square {
+    possition: absolute;
+    background: rgba(238, 235, 235, 0.25);
+    height: 20vh;
+    margin-top: 10px;
+    transition: all 1.0s;
+    border-radius: 10%;
+    border: 2px dotted rgba(179, 3, 3, 0.5);
+}
+
+@keyframes hoverExpand {
+    0% {
+        transform: translateY(0)
+    }
+    100% {
+        transform: translateY(-7px)
+    }
+}
+
+.square:hover {
+    background: rgba(238, 235, 235, 0.25);
+    animation: hoverExpand 0.4s 0s forwards
+}
+
+.btn {
+    background: rgba(235, 210, 210, 0.7);
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+h1 {
+    margin-top: -20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.btn:hover {
+    background: rgba(247, 175, 175, 0.2);
+    color: white;
+}
+
+.jumboContainer {
+    margin: auto 180px auto 180px;
+}
+
+.jumbotron {
+    background: rgba(255, 251, 251, 0.2);
+    text-align: center;
+    height: 170px;
+    color: white;
+}
+
+.jumbotron:hover {
+    background: rgba(230, 230, 230, 0.2);
+    text-align: center;
+    color: rgb(238, 113, 113, 0.70);
+}
