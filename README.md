@@ -1,5 +1,5 @@
 # Memory Game (Card Game)
-[Game Site](https://guyhassan.github.io/TicTacToeGame/)
+[Game Site](https://guyhassan.github.io/Memory_Game/)
 ### Introduction:
 The Memory game has a one modes:
 - Player need to guess/rememeber where there are a pair of matching cards
