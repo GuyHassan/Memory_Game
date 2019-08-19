@@ -11,7 +11,7 @@ The Memory game has a one modes:
 
 ### Screenshots
 
-### Two type of style , Marvel mode and Disney Mode .
+- Two type of style , Marvel mode and Disney Mode .
 
 ![Memory Game](https://user-images.githubusercontent.com/33221427/63267303-6793c380-c29a-11e9-85c4-7317836622b6.gif)
 
