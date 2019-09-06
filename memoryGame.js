@@ -4,8 +4,8 @@ var sq = [].slice.call(document.querySelectorAll(".square")), //convert the quer
     resetButton = document.getElementById("res");
 var objOfImgs = {
         listOfNumber: [3, 5, 2, 0, 4, 1, 2, 4, 0, 3, 1, 5],
-        disney: ["img/Walt-Disney-PNG-Transparent-Image.png", "img/disney-transparent-2.png", "https://d2wgbggetablcw.cloudfront.net/Footer/home.png", "https://d2wgbggetablcw.cloudfront.net/Lightbox/WoodyLoginLightbox.png", "https://d2wgbggetablcw.cloudfront.net/Footer/purchase.png", "https://ui-ex.com/images/disney-transparent-lion-king-4.png"],
-        marvel: ["img/Marvel-Thanos-PNG-Free-Download.png", "img/Captain-Marvel-PNG-Transparent-Image.png", "http://www.pngmart.com/files/9/Thanos-Infinity-Stone-Gauntlet-PNG-HD.png", "http://www.pngmart.com/files/6/Marvel-Vision-Transparent-Background-1.png", "http://www.pngmart.com/files/2/Captain-Marvel-PNG-Free-Download.png", "http://www.pngmart.com/files/2/Captain-Marvel-PNG-Photos.png"],
+        disney: ["img/Walt-Disney-PNG-Transparent-Image.png", "img/disney-transparent-2.png", "img/home.png", "img/WoodyLoginLightbox.png", "img/purchase.png", "img/disney-transparent-lion-king-4.png"],
+        marvel: ["img/Marvel-Thanos-PNG-Free-Download.png", "img/Captain-Marvel-PNG-Transparent-Image.png", "img/Thanos-Infinity-Stone-Gauntlet-PNG-HD.png", "img/Marvel-Vision-Transparent-Background-1.png", "img/Captain-Marvel-PNG-Free-Download.png", "img/Captain-Marvel-PNG-Photos.png"],
     },
     numOfClicks = 0,
     maxClickRound = 2,
